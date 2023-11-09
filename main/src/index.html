@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" class="no-js">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>AACom</title>
+
+    <!--==================================================================
+			CSS Stylesheets
+		==================================================================-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <h1>안녕안녕</h1>
+    <!--page-borders-->
+
+    <!--menu-btn-->
+    <a href="#" class="menu-btn">
+      <span class="lines">
+        <span class="l1"></span>
+        <span class="l2"></span>
+        <span class="l3"></span>
+      </span>
+    </a>
+
+    <div id="main-wrapper">
+      <!--==================================================================
+				Main Intro Section
+			==================================================================-->
+      <section id="intro" class="section intro-section">
+        <div class="container">
+          <div class="row intro-cols">
+            <div class="col-md-6 col-md-push-6">
+              <div class="phone">
+                <div class="phone-img">
+                  <img src="img/phone1.png" alt />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+              <div class="v-align">
+                <div class="inner">
+                  <div class="intro-text">
+                    <h1>AAC</h1>
+                    <p>
+                      This is the helpful app who can`t speak or communicate
+                      someone, they can communicate using AAC. Give it a try
+                    </p>
+                    <div class="login-wrapper">
+                      <h2>Login</h2>
+                      <form method="post" action="서버의url" id="login-form">
+                        <input
+                          type="text"
+                          name="userName"
+                          placeholder="Email"
+                        />
+                        <input
+                          type="password"
+                          name="userPassword"
+                          placeholder="Password"
+                        />
+                        <label for="remember-check">
+                          <button class="membership">회원가입</button>
+                          <input type="checkbox" id="remember-check" />아이디
+                          저장하기
+                        </label>
+                        <input type="submit" value="Login" />
+                      </form>
+                    </div>
+                    <div class="intro-download-btns">
+                      <a href="#" class="app-btn">
+                        <img src="img/appstore.png" alt />
+                      </a>
+                      <a href="#" class="app-btn">
+                        <img src="img/googleplay.png" alt />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
