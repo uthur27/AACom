@@ -12,6 +12,7 @@
 		==================================================================-->
     <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/main.js"></script>
   </head>
   <body>
     <!--page-borders-->
@@ -61,13 +62,11 @@
                           name="userPassword"
                           placeholder="Password"
                         />
-                        <label for="remember-check">
-                          <button class="membership">회원가입</button>
-                          <input type="checkbox" id="remember-check" />아이디
-                          저장하기
-                        </label>
                         <input type="submit" value="Login" />
                       </form>
+                      <button class="membership" onclick="loginPage()">
+                        회원가입
+                      </button>
                     </div>
                     <div class="intro-download-btns">
                       <a href="#" class="app-btn">
