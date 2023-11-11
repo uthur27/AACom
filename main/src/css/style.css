@@ -327,3 +327,9 @@ a.btn-minimal {
 .membership {
   margin-right: 20px;
 }
+
+.space {
+  width: 4px;
+  height: auto;
+  display: inline-block;
+}
