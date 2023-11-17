@@ -9,3 +9,5 @@ function loginTest() {
   login.style.display = "none";
   loginS.style.display = "block";
 }
+
+console.log("test");
